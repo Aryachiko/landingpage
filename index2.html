@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novel Yahari Ore no Seishun Love Come wa Machigatteiru</title>
+    <link rel="stylesheet" href="w3.css"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        html {
+            scroll-behavior: smooth; /* Untuk scroll halus antar section */
+        }
+        body {
+            font-family: sans-serif; /* Mengatur font dasar */
+        }
+        /* Penyesuaian margin untuk section agar tidak tertutup header fixed */
+        .w3-section {
+            padding-top: 64px; /* Sesuaikan dengan tinggi header */
+        }
+        .volume-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 10px;
+        }
+        .volume-item img {
+            width: 300px;
+            height: 429px;
+            object-fit: cover; /* untuk memastikan gambar tidak keluar proporsi jika ukurannya beda */
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        .volume-item h4 {
+            margin-top: 10px;
+            color: #333;
+        }
+        .volume-item a {
+            text-decoration: none;
+            color: inherit;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="w3-top w3-bar w3-dark-grey w3-card-4">
+        <div class="w3-container">
+            <a href="#hero" class="w3-bar-item w3-button w3-mobile w3-large w3-hide-small w3-hover-none w3-hover-text-light-grey">Novel Yahari</a>
+            <div class="w3-right w3-hide-small">
+                <a href="profil.html" class="w3-bar-item w3-button w3-mobile">Profil</a>
+                <a href="tambah.html" class="w3-bar-item w3-button w3-mobile">Tambah</a>
+                <a href="edit.html" class="w3-bar-item w3-button w3-mobile">Edit</a>
+                <a href="hapus.html" class="w3-bar-item w3-button w3-mobile">Hapus</a>
+                <a href="#contact" class="w3-bar-item w3-button w3-mobile">Kontak</a> </div>
+            <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
+            <div id="mobileNav" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium">
+                <a href="profil.html" class="w3-bar-item w3-button">Profil</a>
+                <a href="tambah.html" class="w3-bar-item w3-button">Tambah</a>
+                <a href="edit.html" class="w3-bar-item w3-button">Edit</a>
+                <a href="hapus.html" class="w3-bar-item w3-button">Hapus</a>
+                <a href="#contact" class="w3-bar-item w3-button">Kontak</a>
+            </div>
+
+        </div>
+    </header>
+
+    <section id="hero" class="w3-container w3-center w3-padding-64 w3-theme-l5" style="padding-top:120px; padding-bottom:40px;">
+
+        <h1 class="w3-jumbo">Yahari Ore no Seishun Love Come wa Machigatteiru</h1>
+        <p class="w3-xlarge">Temukan kisah Hachiman Hikigaya dan kawan-kawan.</p>
+        <a href="#volumes" class="w3-button w3-blue w3-padding-large w3-round-large w3-margin-top">Lihat Semua Volume</a>
+    </section>
+
+    <section id="volumes" class="w3-container w3-center w3-padding-64 w3-white w3-section">
+        <h2 class="w3-xxxlarge w3-text-dark-grey">Volume Novel</h2>
+        <p class="w3-large">Jelajahi setiap volume dari kisah Yahari Ore no Seishun Love Come wa Machigatteiru.</p>
+        <div class="w3-row-padding w3-margin-top">
+
+            <div class="w3-third w3-margin-bottom">
+                <div class="w3-card w3-padding-large w3-light-grey volume-item">
+                    <a href="capter/prolog.html">
+                        <img src="gambar/YahariLoveCom_v01_thumb_cover.jpg" alt="Volume 1 Cover" width="99%">
+                        <h4>Volume 1</h4>
+                    </a>
+                </div>
+            </div>
+            <div class="w3-third w3-margin-bottom">
+                <div class="w3-card w3-padding-large w3-light-grey volume-item">
+                    <a href="capter/chp1.html">
+                        <img src="gambar/YahariLoveCom_v02_thumb_cover.jpg" alt="Volume 2 Cover" width="99%">
+                        <h4>Volume 2</h4>
+                    </a>
+                </div>
+            </div>
+            <div class="w3-third w3-margin-bottom">
+                <div class="w3-card w3-padding-large w3-light-grey volume-item">
+                    <a href="capter/chp2.html">
+                        <img src="gambar/YahariLoveCom_v03_thumb_cover.jpg" alt="Volume 3 Cover" width="99%">
+                        <h4>Volume 3</h4>
+                    </a>
+                </div>
+            </div>
+
+            <div class="w3-third w3-margin-bottom">
+                <div class="w3-card w3-padding-large w3-light-grey volume-item">
+                    <a href="capter/chp3.html">
+                        <img src="gambar/YahariLoveCom_v04_thumb_cover.jpg" alt="Volume 4 Cover" width="99%">
+                        <h4>Volume 4</h4>
+                    </a>
+                </div>
+            </div>
+            <div class="w3-third w3-margin-bottom">
+                <div class="w3-card w3-padding-large w3-light-grey volume-item">
+                    <a href="capter/chp4.html">
+                        <img src="gambar/YahariLoveCom_v05_thumb_cover.jpg" alt="Volume 5 Cover" width="99%">
+                        <h4>Volume 5</h4>
+                    </a>
+                </div>
+            </div>
+            <div class="w3-third w3-margin-bottom">
+                <div class="w3-card w3-padding-large w3-light-grey volume-item">
+                    <a href="capter/chp4.html">
+                        <img src="gambar/YahariLoveCom_v06_thumb_cover.jpg" alt="Volume 6 Cover" width="99%">
+                        <h4>Volume 6</h4>
+                    </a>
+                </div>
+            </div>
+
+            <div class="w3-third w3-margin-bottom">
+                <div class="w3-card w3-padding-large w3-light-grey volume-item">
+                    <a href="capter/chp6.html">
+                        <img src="gambar/YahariLoveCom_v06.5_thumb_cover.jpg" alt="Volume 6.5 Cover" width="99%">
+                        <h4>Volume 6.5</h4>
+                    </a>
+                </div>
+            </div>
+            <div class="w3-third w3-margin-bottom">
+                <div class="w3-card w3-padding-large w3-light-grey volume-item">
+                    <a href="capter/chp5.html">
+                        <img src="gambar/YahariLoveCom_v07_thumb_cover.jpg" alt="Volume 7 Cover" width="99%">
+                        <h4>Volume 7</h4>
+                    </a>
+                </div>
+            </div>
+            <div class="w3-third w3-margin-bottom">
+                <div class="w3-card w3-padding-large w3-light-grey volume-item">
+                    <a href="capter/chp5.html">
+                        <img src="gambar/YahariLoveCom_v07.5_thumb_cover.jpg" alt="Volume 7.5 Cover" width="99%">
+                        <h4>Volume 7.5</h4>
+                    </a>
+                </div>
+            </div>
+
+            <div class="w3-third w3-margin-bottom">
+                <div class="w3-card w3-padding-large w3-light-grey volume-item">
+                    <a href="capter/chp5.html">
+                        <img src="gambar/YahariLoveCom_v08_thumb_cover.jpg" alt="Volume 8 Cover" width="99%">
+                        <h4>Volume 8</h4>
+                    </a>
+                </div>
+            </div>
+            <div class="w3-third w3-margin-bottom">
+                <div class="w3-card w3-padding-large w3-light-grey volume-item">
+                    <a href="capter/chp5.html">
+                        <img src="gambar/YahariLoveCom_v09_thumb_cover.jpg" alt="Volume 9 Cover" width="99%">
+                        <h4>Volume 9</h4>
+                    </a>
+                </div>
+            </div>
+            <div class="w3-third w3-margin-bottom">
+                <div class="w3-card w3-padding-large w3-light-grey volume-item">
+                    <a href="capter/chp5.html">
+                        <img src="gambar/YahariLoveCom_v10_thumb_cover.jpg" alt="Volume 10 Cover" width="99%">
+                        <h4>Volume 10</h4>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="w3-third w3-margin-bottom">
+                <div class="w3-card w3-padding-large w3-light-grey volume-item">
+                    <a href="capter/chp5.html">
+                        <img src="gambar/YahariLoveCom_v10.5_thumb_cover.jpg" alt="Volume 10.5 Cover" width="99%">
+                        <h4>Volume 10.5</h4>
+                    </a>
+                </div>
+            </div>
+            <div class="w3-third w3-margin-bottom">
+                <div class="w3-card w3-padding-large w3-light-grey volume-item">
+                    <a href="capter/chp5.html">
+                        <img src="gambar/YahariLoveCom_v11_thumb_cover.jpg" alt="Volume 11 Cover" width="99%">
+                        <h4>Volume 11</h4>
+                    </a>
+                </div>
+            </div>
+            <div class="w3-third w3-margin-bottom">
+                <div class="w3-card w3-padding-large w3-light-grey volume-item">
+                    <a href="capter/chp5.html">
+                        <img src="gambar/YahariLoveCom_v12_thumb_cover.jpg" alt="Volume 12 Cover" width="99%">
+                        <h4>Volume 12</h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="w3-container w3-dark-grey w3-padding-32 w3-center w3-opacity w3-hover-opacity-off">
+        <h3 class="w3-xlarge">Hubungi Kami</h3>
+        <p>Ikuti kami di sosial media atau hubungi via email/WhatsApp.</p>
+        <p>Email: <a href="mailto:info@yaharinovel.com" class="w3-hover-text-blue">info@yaharinovel.com</a></p>
+        <p>Telepon: <a href="tel:+6281234567890" class="w3-hover-text-blue">+62 812 3456 7890</a></p>
+        
+        <div class="w3-margin-top social-icons">
+            <a href="https://wa.me/6281234567890" target="_blank" class="w3-button w3-blue w3-round"><i class="fa fa-whatsapp"></i> WhatsApp</a>
+            <a href="https://instagram.com/yaharinovel" target="_blank" class="w3-button w3-pink w3-round w3-margin-left"><i class="fa fa-instagram"></i> Instagram</a>
+            <a href="https://facebook.com/yaharinovel" target="_blank" class="w3-button w3-blue w3-round w3-margin-left"><i class="fa fa-facebook-official"></i> Facebook</a>
+        </div>
+
+        <div class="w3-margin-top w3-small">
+            <p>&copy; 2024 Novel Yahari. Semua Hak Cipta Dilindungi.</p>
+        </div>
+    </footer>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("mobileNav");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+    </script>
+
+</body>
+</html>
